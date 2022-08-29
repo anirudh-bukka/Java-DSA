@@ -24,7 +24,6 @@ public class QuickSort {
         }
         swap(ar, i+1, high);
         return i+1;
-
     }
 
     static void quickSort(int[] ar, int low, int high) {
