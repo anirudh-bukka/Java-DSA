@@ -2,6 +2,6 @@
 
 public class ReduceBinaryToOne {
     public static void main(String[] args) {
-        
+
     }
 }
