@@ -3,7 +3,8 @@ public class SkipCharAndString {
         processString1("", "baccdah");
         System.out.println(processString2("baccdah"));
 //        String s = "apple";
-        System.out.println(skipString("An apple a day"));
+        System.out.println(skipString("A mobile app built by apple."));
+        System.out.println(skipAppNotApple("A mobile app built by apple."));
     }
 
     static void processString1(String p, String unp) {
@@ -41,5 +42,15 @@ public class SkipCharAndString {
             return skipString(given.substring(5));
         else
             return given.charAt(0) + skipString(given.substring(1));
+    }
+
+    static String skipAppNotApple(String given) {
+        if(given.isEmpty())
+            return "";
+
+        if(given.startsWith("app") && !(given.startsWith("apple")))
+            return skipAppNotApple(given.substring(3));
+        else
+            return given.charAt(0) + skipAppNotApple(given.substring(1));
     }
 }
