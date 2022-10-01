@@ -7,9 +7,9 @@ public class LetterCombinationsPhoneNo {
 
     public static void main(String[] args) {
         System.out.println("Without using ArrayList: ");
-        phonePad("", "12");
+        phonePad("", "23");
         System.out.println("Using an ArrayList: ");
-        System.out.println(phonePadArrayList("", "12"));
+        System.out.println(phonePadArrayList("", "23"));
     }
 
     static void phonePad(String p, String up) {
