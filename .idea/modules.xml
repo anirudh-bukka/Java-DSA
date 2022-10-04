@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backtracking/Backtracking.iml" filepath="$PROJECT_DIR$/Backtracking/Backtracking.iml" />
       <module fileurl="file://$PROJECT_DIR$/BitwiseOperators/BitwiseOperators.iml" filepath="$PROJECT_DIR$/BitwiseOperators/BitwiseOperators.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-DSA.iml" filepath="$PROJECT_DIR$/Java-DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode-Questions/LeetCode-Questions.iml" filepath="$PROJECT_DIR$/LeetCode-Questions/LeetCode-Questions.iml" />
