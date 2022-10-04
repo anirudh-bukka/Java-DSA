@@ -4,6 +4,8 @@ import java.util.List;
 public class IntegerSubsets {
     public static void main(String[] args) {
         int[] ar = {1, 2, 3};
+
+
         System.out.println(subsetFunc(ar));
     }
 
