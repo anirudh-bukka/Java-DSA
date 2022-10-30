@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 
 /* Link: https://www.geeksforgeeks.org/recursive-programs-to-find-minimum-and-maximum-elements-of-array/
 
