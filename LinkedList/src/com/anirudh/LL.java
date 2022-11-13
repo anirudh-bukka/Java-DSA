@@ -90,6 +90,11 @@ public class LL {
         size++;
     }
 
+//    INSERT USING RECURSION --> especially useful when we are not aware of the LL, tail and/or size.
+    public void recursiveInsert(int value, int index) {
+
+    }
+
     // Delete last number
     public int deleteLast() {
         if(size <= 1)

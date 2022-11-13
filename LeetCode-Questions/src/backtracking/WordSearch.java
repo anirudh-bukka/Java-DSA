@@ -19,6 +19,6 @@ public class WordSearch {
 
         char ch = word.charAt(0);
 
-
+        return true;
     }
 }

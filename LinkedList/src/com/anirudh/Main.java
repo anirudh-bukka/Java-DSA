@@ -26,8 +26,18 @@ public class Main {
         list.insertFirst(8);
         list.insertFirst(17);
         list.insertLast(99);
+        list.insertAfterValue(8, 66666);
         list.display();
         list.displayReverse();
+        list.deleteFirst();
+        list.display();
+        list.deleteLast();
+        list.display();
+        list.deleteAtIndex(2);
+        list.display();
+        list.deleteElement(66666);
+        list.display();
+
 
     }
 }

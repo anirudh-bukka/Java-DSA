@@ -3,8 +3,8 @@ package com.anirudh;
 public class DLL {
 
     private Node head;
-    private Node prev;
-    private Node next;
+//    private Node prev;
+//    private Node next;
     private Node tail;
     private int size;
 
@@ -46,25 +46,20 @@ public class DLL {
 
     }
 
-    public void insertAtIndexFront(int index, int value) {
-        if(index == 0) {
-            insertFirst(value);
+    public void insertAfterValue(int after, int value) {
+        Node p = findNode(after);
+
+        if(p == null) {
+            System.out.println("Does not exist.");
             return;
         }
-        if(index == size-1) {
-            insertLast(value);
-            return;
-        }
 
-
-    }
-
-    public void insertAtIndexLast(int index, int value) {
-
-    }
-
-    public void insertAfterIndex(int index, int value) {
-
+        Node node = new Node(value);
+        node.next = p.next;
+        p.next = node;
+        node.prev = p;
+        if(node.next != null)
+            node.next.prev = node;
     }
 
     public Node getNode(int index) {
@@ -74,6 +69,63 @@ public class DLL {
             node = node.next;
 
         return node;
+    }
+
+    public void deleteFirst() {
+        Node temp = head;
+
+        head = temp.next;
+        head.prev = null;
+
+    }
+
+    public void deleteLast() {
+        Node node = head;
+        Node secondLast = head;
+        while(node.next != null) {
+            secondLast = node;
+            node = node.next;
+        }
+        secondLast.next = null;
+    }
+
+    public void deleteAtIndex(int index) {
+
+        if(index == 0) {
+            deleteFirst();
+            return;
+        }
+
+        Node node = head;
+        for(int i = 0; i < index; i++) {
+            node = node.next;
+        }
+        Node temp = node;
+        Node previous = temp.prev;
+        Node nextNode = temp.next;
+        previous.next = nextNode;
+        nextNode.prev = previous;
+    }
+
+    public void deleteElement(int value) {
+        Node toDelete = findNode(value);
+
+        Node previous = toDelete.prev;
+        Node nextNode = toDelete.next;
+
+        previous.next = nextNode;
+        nextNode.prev = previous;
+    }
+
+    public Node findNode(int value) {
+        Node node = head;
+
+        while(node != null) {
+            if(node.value == value)
+                return node;
+            node = node.next;
+        }
+        return null;
     }
 
     public void display() {
