@@ -1,2 +1,6 @@
-package linkedlists;public class LLCycleStart {
+package linkedlists;
+
+public class LLCycleStart {
+
+
 }

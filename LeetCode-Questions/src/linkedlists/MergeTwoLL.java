@@ -1,2 +1,4 @@
-package linkedlists;public class MergeTwoLL {
+package linkedlists;
+
+public class MergeTwoLL {
 }
