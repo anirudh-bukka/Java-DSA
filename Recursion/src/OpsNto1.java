@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Product_n_1 {
+public class OpsNto1 {
 
     public static void main(String[] args) {
 

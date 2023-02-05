@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class BalancedParanthesis {
+// Balanced Paranthesis without stack.
+
+public class BalancedParanthesis {
+
 }
