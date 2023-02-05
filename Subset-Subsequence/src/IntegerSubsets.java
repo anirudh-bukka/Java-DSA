@@ -3,7 +3,7 @@ import java.util.List;
 
 public class IntegerSubsets {
     public static void main(String[] args) {
-        int[] ar = {1, 2, 3};
+        int[] ar = {1, 2,2, 3};
         List<List<Integer>> ans = subset(ar);
         for(List<Integer> list : ans)
             System.out.println(list);
