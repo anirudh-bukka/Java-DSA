@@ -26,6 +26,7 @@ public class ObstacleMaze {
             obstacleFunc(p + "D", maze, r+1, c);
         if(c < maze[0].length-1)
             obstacleFunc(p + "R", maze, r, c+1);
+
     }
 
     static ArrayList<String> obstacleFuncReturn(String p, boolean[][] maze, int r, int c) {

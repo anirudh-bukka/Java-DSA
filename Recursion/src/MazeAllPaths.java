@@ -13,8 +13,8 @@ public class MazeAllPaths {
 
         int[][] path = new int[board.length][board[0].length];
         System.out.println();
-        System.out.println("Map the cells along with path from (0,0) to (3,3):");
-        mapPath("", board, 0, 0, path, 1);
+//        System.out.println("Map the cells along with path from (0,0) to (3,3):");
+//        mapPath("", board, 0, 0, path, 1);
     }
 
     static void allPath(String p, boolean[][] maze, int r, int c) {
