@@ -1,38 +1,40 @@
-package linkedlists;
+package questions;
+//import com.anirudh.LL;
 
-public class LLCycleStart {
+import com.anirudh.LL;
+
+public class RemoveDupesI {
     public static void main(String[] args) {
-        LLCycleStart list = new LLCycleStart();
+        RemoveDupesI list = new RemoveDupesI();
         list.insertLast(1);
-        list.insertLast(1);
-        list.insertLast(1);
-        list.insertLast(1);
-        list.insertLast(1);
+        list.insertLast(2);
+        list.insertLast(2);
+        list.insertLast(2);
+        list.insertLast(3);
+        list.insertLast(4);
+        list.insertLast(4);
+        list.display();
+        list.removeDuplicates();
+        list.display();
     }
 
-//    public static Node findStart(Node head) {
-//        Node first = head;
-//        Node second = head;
-//    }
-    // -----------------------------------------------------
-    Node head;
-    Node tail;
-    int size;
+    public void removeDuplicates() {
+        Node node = head;
 
-    public class Node {
-        public int value;
-        public Node next;
-
-        public Node(int value) {
-            this.value = value;
+        while(node.next != null) {
+            if(node.value == node.next.value) {
+                node.next = node.next.next;
+                size--;
+            } else {
+                node = node.next;
+            }
         }
-
-        public Node(int value, Node next) {
-            this.value = value;
-            this.next = next;
-        }
+        tail = node;
+        tail.next = null;
     }
 
+    // -----------------------------------------------------------------------------------------------
+    // LINKEDLIST METHODS
     public void insertFirst(int value) {
         Node node = new Node(value);
         node.next = head;
@@ -129,4 +131,25 @@ public class LLCycleStart {
         }
         System.out.println("END");
     }
+    
+    // -----------------------------------------------------------------------------------------------
+    // INNER CLASS FOR NODE
+    
+    private class Node {
+        int value;
+        Node next;
+        
+        public Node(int value) {
+            this.value = value;
+        }
+        
+        public Node(int value, Node next) {
+            this.value = value;
+            this.next = next;
+        }
+    }
+    Node head;
+    Node tail;
+    int size;
+    public RemoveDupesI() {this.size = 0;}
 }

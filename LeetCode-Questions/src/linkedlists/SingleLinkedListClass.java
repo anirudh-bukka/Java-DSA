@@ -1,25 +1,12 @@
 package linkedlists;
 
-public class LLCycleStart {
-    public static void main(String[] args) {
-        LLCycleStart list = new LLCycleStart();
-        list.insertLast(1);
-        list.insertLast(1);
-        list.insertLast(1);
-        list.insertLast(1);
-        list.insertLast(1);
-    }
+public class SingleLinkedListClass {
 
-//    public static Node findStart(Node head) {
-//        Node first = head;
-//        Node second = head;
-//    }
-    // -----------------------------------------------------
     Node head;
     Node tail;
     int size;
 
-    public class Node {
+    public static class Node {
         public int value;
         public Node next;
 
@@ -31,6 +18,8 @@ public class LLCycleStart {
             this.value = value;
             this.next = next;
         }
+
+        public Node() {}
     }
 
     public void insertFirst(int value) {
