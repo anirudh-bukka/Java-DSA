@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class CircularQueueException {
+public class CircularQueueException extends Exception {
+    public CircularQueueException(String message) {
+        super(message);
+    }
 }
