@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class QueueException {
+public class QueueException extends Exception {
+    public QueueException(String message) {
+        super(message);
+    }
 }
