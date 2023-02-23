@@ -1,7 +1,7 @@
 package stacks_queues;
-
 import java.util.Stack;
 
+// Efficient insert, inefficient remove.
 public class QueueUsingStackI {
     private Stack<Integer> first;
     private Stack<Integer> second;
