@@ -31,7 +31,9 @@ public class CarsCollision {
             if(stack.peek() == 'L') {
                 count += 1;
                 stack.set(-1, 'S');
-            } else if()
+            } else if() {
+
+            }
         }
     }
 }
