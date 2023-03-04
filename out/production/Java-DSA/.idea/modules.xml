@@ -3,8 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backtracking/Backtracking.iml" filepath="$PROJECT_DIR$/Backtracking/Backtracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BitwiseOperators/BitwiseOperators.iml" filepath="$PROJECT_DIR$/BitwiseOperators/BitwiseOperators.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-DSA.iml" filepath="$PROJECT_DIR$/Java-DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode-Questions/LeetCode-Questions.iml" filepath="$PROJECT_DIR$/LeetCode-Questions/LeetCode-Questions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP/OOP.iml" filepath="$PROJECT_DIR$/OOP/OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Searching/Searching.iml" filepath="$PROJECT_DIR$/Searching/Searching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stack/Stack.iml" filepath="$PROJECT_DIR$/Stack/Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Subset-Subsequence/Subset-Subsequence.iml" filepath="$PROJECT_DIR$/Subset-Subsequence/Subset-Subsequence.iml" />
     </modules>
   </component>
 </project>
