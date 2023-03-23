@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class Questions {
+public class MajorityElement {
     public static void majorityElement(int ar[]) {
         HashMap<Integer, Integer> map = new HashMap<>();
 
