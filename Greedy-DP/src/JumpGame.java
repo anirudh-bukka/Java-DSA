@@ -31,10 +31,10 @@ public class JumpGame {
             count += 1;
         }
         return count;
-        
-        
-        
-        
+
+
+
+
         //        int count = 0;
 //        int goal = n - 1;
 ////        for(int i = n-1; i >= 0; i--) {
