@@ -1,5 +1,3 @@
-package Practice;
-
 import java.util.Stack;
 
 public class SubarraySum {
