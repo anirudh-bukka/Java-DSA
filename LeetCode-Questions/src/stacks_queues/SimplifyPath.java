@@ -1,3 +1,5 @@
+package stacks_queues;
+
 import java.util.*;
 
 public class SimplifyPath {
