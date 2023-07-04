@@ -91,6 +91,7 @@ public class BinaryTreeBuild {
 
         BinaryTree tree = new BinaryTree();
         Node root = tree.buildTree(nodes);
+        System.out.println("----");
         System.out.println(root.value);
         tree.preorderTraversal(root);
         System.out.println("----");
