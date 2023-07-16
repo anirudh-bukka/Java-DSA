@@ -77,6 +77,33 @@ public class BuildBST {
             return isPresent(root.right, key);
     }
 
+    public static Node delete(Node root, int value) {
+        if(root.value > value) {
+            root.left = delete(root.left, value);
+        } else if(root.value < value) {
+            root.right = delete(root.right, value);
+        } else {
+            if(root.left == null && root.right == null) {
+                return null;
+            }
+            if(root.left == null)
+                return root.right;
+            else if(root.right == null)
+                return root.left;
+
+            Node IS = inorderSuccessor(root.right);
+            root.value = IS.value;
+            root.right = delete(root.right, IS.value);
+        }
+        return root;
+    }
+
+    public static Node inorderSuccessor(Node root) {
+        while(root.left != null)
+            root = root.left;
+        return root;
+    }
+
     public static void main(String[] args) {
         int[] ar = {5, 1, 3, 4, 2, 7};
         Node root = null;
