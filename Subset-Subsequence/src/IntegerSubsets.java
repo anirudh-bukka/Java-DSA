@@ -3,18 +3,19 @@ import java.util.List;
 
 public class IntegerSubsets {
     public static void main(String[] args) {
-        int[] ar = {1, 2, 2, 3};
+//        int[] ar = {1, 2, 2, 3};
+        int[] ar = {1, 2, 2};
         List<List<Integer>> ans = subset(ar);
         for(List<Integer> list : ans)
             System.out.println(list);
     }
 
-    static List<List<Integer>> subset(int[] ar) {
+    static List<List<Integer>> subset(int[] nums) {
         List<List<Integer>> outer = new ArrayList<>();
 
         outer.add(new ArrayList<>());
 
-        for(int num: ar) {
+        for(int num: nums) {
             int n = outer.size();
             for (int i = 0; i < n; i++) {
                 List<Integer> internal = new ArrayList<>(outer.get(i));

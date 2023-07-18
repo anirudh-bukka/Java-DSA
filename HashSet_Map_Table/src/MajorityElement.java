@@ -11,7 +11,6 @@ public class MajorityElement {
             else
                 map.put(ar[i], 1);
         }
-
         for(int key : map.keySet()) {
             if(map.get(key) > ar.length/3)
                 System.out.println(key);

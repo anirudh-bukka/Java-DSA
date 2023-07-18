@@ -22,7 +22,7 @@ public class CustomStack {
         return true;
     }
 
-    public int pop() throws StackException{
+    public int pop() throws StackException {
         if(isEmpty())
             throw new StackException("Cannot pop from an empty stack.");
 

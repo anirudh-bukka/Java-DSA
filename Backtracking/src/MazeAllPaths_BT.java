@@ -3,8 +3,7 @@ public class MazeAllPaths_BT {
         boolean[][] board = {
                 {true, true, true},
                 {true, true, true},
-                {true, true, true}
-        };
+                {true, true, true}};
         allPath("", board, 0, 0);
     }
 

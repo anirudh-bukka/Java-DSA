@@ -1,6 +1,5 @@
 package arrays;
-
-import java.util.ArrayList;
+// Link: https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1
 
 public class MinimumPlatforms {
     public static void main(String[] args) {

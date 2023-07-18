@@ -6,14 +6,21 @@
       <module fileurl="file://$PROJECT_DIR$/Backtracking/Backtracking.iml" filepath="$PROJECT_DIR$/Backtracking/Backtracking.iml" />
       <module fileurl="file://$PROJECT_DIR$/BitwiseOperators/BitwiseOperators.iml" filepath="$PROJECT_DIR$/BitwiseOperators/BitwiseOperators.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA-Sheet/DSA-Sheet.iml" filepath="$PROJECT_DIR$/DSA-Sheet/DSA-Sheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Greedy-DP/Greedy-DP.iml" filepath="$PROJECT_DIR$/Greedy-DP/Greedy-DP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashSet_Map_Table/HashSet_Map_Table.iml" filepath="$PROJECT_DIR$/HashSet_Map_Table/HashSet_Map_Table.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JPMC/JPMC.iml" filepath="$PROJECT_DIR$/JPMC/JPMC.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-DSA.iml" filepath="$PROJECT_DIR$/Java-DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../JavaProjects/JavaProjects.iml" filepath="$PROJECT_DIR$/../../JavaProjects/JavaProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode-Questions/LeetCode-Questions.iml" filepath="$PROJECT_DIR$/LeetCode-Questions/LeetCode-Questions.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP/OOP.iml" filepath="$PROJECT_DIR$/OOP/OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Searching/Searching.iml" filepath="$PROJECT_DIR$/Searching/Searching.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stack/Stack.iml" filepath="$PROJECT_DIR$/Stack/Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stack-Queue/Stack-Queue.iml" filepath="$PROJECT_DIR$/Stack-Queue/Stack-Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/Subset-Subsequence/Subset-Subsequence.iml" filepath="$PROJECT_DIR$/Subset-Subsequence/Subset-Subsequence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trees/Trees.iml" filepath="$PROJECT_DIR$/Trees/Trees.iml" />
     </modules>
   </component>
 </project>

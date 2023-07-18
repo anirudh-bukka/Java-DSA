@@ -16,8 +16,8 @@ public class FindTripletSum {
 
         for(int i = 0; i < ar.length - 2; i++) {
             int start = i + 1, end = ar.length - 1;
-            while(start < end) {
 
+            while(start < end) {
                 int sum = ar[i] + ar[start] + ar[end];
 
                 if(abs(target - sum) < abs(target - closestSum))

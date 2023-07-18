@@ -1,5 +1,4 @@
 import java.util.HashMap;
-import java.util.HashSet;
 // Link: https://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/
 
 public class Anagram {

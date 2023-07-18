@@ -3,7 +3,7 @@ import java.util.*;
 public class ThreeSum {
     public static void main(String[] args) {
         int[] ar = {-1, 0, 1, 2, -1, -4};
-        int target = 8;
+        int target = 0;
         System.out.println(threeSum(ar, target));
     }
 

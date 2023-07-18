@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class FactorsOf3And5 {
+public class FactorsOf3And5 {
+    public static void main(String[] args) {
+
+    }
 }
