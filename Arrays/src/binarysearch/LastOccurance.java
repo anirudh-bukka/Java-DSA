@@ -2,9 +2,12 @@ package binarysearch;
 
 import java.util.*;
 
+// WORKS ONLY FOR SORTED ARRAYS
+
 public class LastOccurance {
     public static void main(String[] args) {
-        int[] ar = {1, 2, 3, 4, 2, 3, 1, 5, 1};
+//        int[] ar = {1, 2, 3, 4, 2, 3, 1, 5, 1};
+        int[] ar = {1, 1, 1, 2, 3, 3, 3, 3, 4, 5, 6};
         Arrays.sort(ar);
         System.out.println(Arrays.toString(whatToSearch(ar, 3)));
     }
